@@ -15,7 +15,8 @@ int main()
 	while(t--)
 	{
 		long long int k,n,r;
-		cin>>n>>k;
+		cin>>n;
+		cin>>k;
 
 		r=n/k;
 		if(r%k==0)
